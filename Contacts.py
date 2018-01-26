@@ -11,7 +11,7 @@ except Exception:
     query = "CREATE TABLE Contacts (ID integer PRIMARY KEY autoincrement,Name text, Number text, Email text);"
     conn.execute(query)
     conn.commit()
-    query = "INSERT into Contacts (Name, Number, Email) values ('John Lerke', '02108188656', 'lerkejohn@gmail.com')"
+    query = "INSERT into Contacts (Name, Number, Email) values ('Joe Bloggs', '025022022', 'joebloggs@gmail.com')"
     conn.execute(query)
     conn.commit()
     query = "INSERT into Contacts (Name, Number, Email) values ('Bob Example', '0222222222', 'bob@example.com')"
